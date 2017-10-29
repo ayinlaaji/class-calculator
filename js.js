@@ -11,7 +11,9 @@ function clickListener(ev) {
   var val = inputs.value;
 
   var scores = val.split("\n").reduce((arr, res) => {
-    arr.push(+res.trim());
+    var i = res.trim();
+    if (i === "") return arr;
+    arr.push(+i);
     return arr;
   }, []);
 
