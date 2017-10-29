@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+        <title> Class Calculator </title>
+        <style type="">
+
+html {
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;}
+textarea{
+
+    font-size: 1rem;
+    font-weight: 900;
+    height: 60%;
+    max-height: 80%;
+    width: 80%;
+    max-width: 80%;
+}
+button{
+    height: 1.5rem;}
+
+#result, #calc{
+    float: left;
+    margin: 0;
+
+
+}
+
+#result{
+    margin-top: 20%;
+    font-weight: 800;
+    font-size: 2rem;
+    padding-left: 0;}
+#calc{
+    width: 60%;
+    height: 100%;
+}
+        </style>
+    </head>
+
+    <body>
+        <div id="calc">
+            <h1> Class calculator </h1>
+            <h5> Input scores here  ------ (One score per line)</h5>
+            <textarea> </textarea>
+            <button> Calculate </button>
+        </div>
+        <div id="result">
+            <p> Total Score: <span id="total"> </span> </p>
+            <p> Average Score: <span id="avg"> </span> </p>
+            <p> Minimum Score: <span id="min"> </span> </p>
+            <p> Maximum Score: <span id="max"> </span> </p>
+        </div>
+        <script type="text/javascript" src="js.js"> </script>
+
+    </body>
+</html>
