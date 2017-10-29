@@ -4,7 +4,6 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "http-server",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -17,7 +16,8 @@
         "url": "https://github.com/ayinlaaji/class-calculator/issues"
     },
     "homepage": "https://github.com/ayinlaaji/class-calculator#readme",
-    "dependencies": {
-        "http-server": "^0.10.0"
+    "dependencies": {},
+    "devDependencies": {
+        "htmlhint": "^0.9.13"
     }
 }
