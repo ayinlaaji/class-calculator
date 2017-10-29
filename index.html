@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-    <html>
-        <head>
+<html>
+    <head>
         <title> Class Calculator </title>
         <style type="">
 
@@ -29,6 +29,12 @@ button{
 
 }
 
+#source {
+ margin-top: 2rem;
+ margin-right: 2rem;
+ float: right
+}
+
 #result{
     margin-top: 20%;
     font-weight: 800;
@@ -42,6 +48,7 @@ button{
     </head>
 
     <body>
+        <div id="source"> Click to contribute: <a href="https://github.com/ayinlaaji/class-calculator"> Github </a></div>
         <div id="calc">
             <h1> Class calculator </h1>
             <h5> Input scores here  ------ (One score per line)</h5>
@@ -54,6 +61,16 @@ button{
             <p> Minimum Score: <span id="min"> </span> </p>
             <p> Maximum Score: <span id="max"> </span> </p>
         </div>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108883308-1"></script>
+        <script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-108883308-1');
+        </script>
+
         <script type="text/javascript" src="js.js"> </script>
 
     </body>
